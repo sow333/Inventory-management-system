@@ -15,6 +15,4 @@ billdata bill_id (PK) store_id (fk) bill_date bill_total
 
 billdetails billdetail_id (PK) bill_id (FK) prod_id (FK) qty line_total
 
-Bill Generator
-
-billid,storeid,date prod_id,qty
+Bill Generator billid,storeid,date prod_id,qty
